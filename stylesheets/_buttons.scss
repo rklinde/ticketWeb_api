@@ -1,0 +1,62 @@
+button {
+    border: none;
+    outline: none;
+    background-color: #6699FF;   
+    font-family: helvetica, arial, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 7px;
+    padding: 5px 5px;
+    margin: 0px 0px;
+    font-size: 10px;
+
+    &:hover {
+        background-color: white;
+        color: $default;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+            background-color: white;
+            color: $default;
+        }
+    }
+    
+}
+
+.active {
+    background-color: #ff667d;
+    border: none;
+    outline: none;
+    
+    font-family: helvetica, arial, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 7px;
+    padding: 5px 5px;
+    margin: 0px 0px;
+    font-size: 10px;
+
+    
+    &:hover {
+        // background-color: white;
+        color: $default;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+            // background-color: white;
+            color: $default;
+        }
+    }
+    
+}
+    

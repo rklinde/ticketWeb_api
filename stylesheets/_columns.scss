@@ -1,0 +1,65 @@
+@for $i from 1 through 6 {
+	.col-#{$i}{
+		width: 100%;
+		box-sizing: border-box;
+		text-align: center;
+		padding: 5px 5px;
+		display: block;
+		vertical-align: top;
+
+		@media all and (min-width: 401px) {
+			width: (100/$i) * 1%;
+			float: left;
+		}
+	}
+}
+
+.right {
+	text-align: center;
+	vertical-align: center;
+	display: block;
+	padding: 5px 5px;
+
+	@media all and (min-width: 401px) {
+		text-align: right;
+		vertical-align: center;
+		float: left;
+	}
+}
+
+.spacer {
+	margin: 0 auto;
+	height: 10px;
+	clear: both;
+}
+
+.feature {
+	background: rgb(233,233,233);
+}
+
+.footer {
+	background: rgb(85,85,85);
+	color: white;
+	padding-top: 20px;
+
+	img {
+		// width: 150px;
+		padding: 30px 50px;
+	}
+}
+
+.logo {
+	background: url("../Images/logobox.png") no-repeat;
+	height: 145px;
+	width: 300px;
+	margin: 0 auto;
+}
+
+	@media all and (min-width: 401px) {
+		.logo {
+			background: url("../Images/logoboxSm.png") no-repeat;
+			height: 125px;
+			display: block;
+		}
+	}
+

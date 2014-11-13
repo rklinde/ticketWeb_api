@@ -1,0 +1,127 @@
+.schoolslist {
+	display: block;
+	padding: 0px;
+
+	@media all and (min-width: 401px){
+		display: inline-block;
+	}
+}
+
+#listing {
+	text-align: left;
+	vertical-align: top;
+	font-size: 12px;
+
+	.eventimage {
+		float: left;
+		img {
+			width: 150px;
+		}
+	}
+
+	.eventdetails {
+		font-size: 11px;
+		background-color: #99ccff;
+		border-bottom: 1px solid black;
+	}
+
+
+	.event-title {
+		text-align: left;
+	}
+	
+	// .first {
+	// 	margin: 0px;
+	// 	text-align: left;
+	// 	list-style-type: none;
+	// 	vertical-align: top;
+	// }
+
+	ul {
+		float: left;
+		list-style-type: none;
+		vertical-align: top;
+
+			li {
+
+				.first {
+					padding: 0;
+				}
+
+				@media all and (min-width: 401px) {
+					display: block;
+					width: 700px;
+					margin: 25px;
+				}
+			}
+
+	}
+}
+					
+
+
+#LIST_VIEW {
+
+	list-style-type: none;
+
+	ul {
+		float: left;
+		list-style-type: none;
+		vertical-align: top;
+
+
+			li {
+
+				.first {
+					padding: 0;
+				}
+			
+				ul {
+					list-style-type: none;
+					margin: 0;
+
+					li {
+						// display: none;
+					}
+					
+				}
+
+				@media all and (min-width: 401px) {
+					display: block;
+					width: 300px;
+					margin: 0px;
+				}
+			}
+
+	}
+
+	
+}
+
+.additional {
+	display: none;
+
+	.xtext {
+		display: none;
+	}
+
+	.eventimage {
+		display: none;
+	}
+}
+
+
+
+
+#tw-modal {
+
+	ul {
+		padding: 0px;
+		margin: 0 auto;
+	}
+	
+}
+
+
+
+

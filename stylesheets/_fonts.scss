@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'trend';
+    src: url('https://s3.amazonaws.com/nyicff_fonts/trend-webfont.eot');
+    src: url('https://s3.amazonaws.com/nyicff_fonts/trend-webfont.eot?#iefix') format('embedded-opentype'),
+         // url('https://s3.amazonaws.com/nyicff_fonts/trend-webfont.woff2') format('woff2'),
+         url('https://s3.amazonaws.com/nyicff_fonts/trend-webfont.woff') format('woff'),
+         url('thttps://s3.amazonaws.com/nyicff_fonts/rend-webfont.ttf') format('truetype'),
+         url('https://s3.amazonaws.com/nyicff_fonts/trend-webfont.svg#trend_sansone') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'mad';
+	src: url('../fonts/mad.otf');
+}
+
+h1 {
+	font-family: trend;
+	font-size: 32px;
+	text-transform: uppercase;
+	&:a {
+		text-transform: uppercase;
+	}
+}
+
+h2 {
+	font-family: trend;
+	font-size: 24px;
+	text-transform: uppercase;
+	&:a {
+		text-transform: uppercase;
+	}
+}
+
+h3 {
+	font-family: trend;
+	font-size: 18px;
+	margin: 0px;
+	text-transform: uppercase;
+	&:a {
+		text-transform: uppercase;
+	}
+}
+
+h4 {
+	font-family: trend;
+	font-size: 12px;
+	text-transform: uppercase;
+	&:a {
+		text-transform: uppercase;
+	}
+}
+
+
+.mad {
+	font-family: mad;
+	text-transform: lowercase;
+	font-size: 20px;
+}

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ticketing</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/main.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="http://www.ticketweb.com/snl/eventlist/TWEventAPIPlugin.js">
+</script> 
+	<script src="scripts/main.js"></script>
+	<script src="scripts/jQuery.succinct.js"></script>
+	<script src="scripts/jQuery.succinct.min.js"></script>
+
+
+</head>
+<body>
+		<div id="container">
+		<div class="spacer"></div>
+
+		<!-- // header // -->
+
+		<div class="col-2 logo"></div>
+		<div class="col-2 right">
+			<div class="mad">search</div>
+		</div>
+		
+
+
+		<!-- // navigation // -->
+
+		<div class="col-1">
+			<nav>
+				<ul>
+					<li><a href="index.html">festival</a>
+						<ul class="feature">
+							<li><a href="films.html">films</a></li>
+							<li><a href="#">jury</a></li>
+							<li><a href="#">submit</a></li>
+							<li><a href="#">archive</a></li>
+						</ul>
+					</li>
+					<li><a href="#">tickets</a></li>
+					<li><a href="#">get involved</a>
+						<ul class="feature">
+							<li><a href="#">internships</a></li>
+							<li><a href="#">volunteer</a></li>
+							<li><a href="#">become a<br>school partner</a></li>
+						</ul>
+					</li>
+					<li><a href="#">support</a>
+						<ul class="feature">
+							<li><a href="#">film-ed</a></li>
+							<li><a href="#">benefit</a></li>
+							<li><a href="#">donate</a></li>
+						</ul>
+					</li>
+					<li><a href="#">membership</a></li>
+					<li><a href="#">about</a>
+						<ul class="feature">
+							<li><a href="#">about us</a></li>
+							<li><a href="#">press</a></li>
+							<li><a href="#">sponsors</a></li>
+							<li><a href="#">distribution</a></li>
+							<li><a href="#">academy info</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+		</div>
+		
+	<div class="col-1">
+			
+			<!-- // SCHOOLS LIST -->
+		<div class="schoolslist">
+			<p>
+			<div style="background-color:#6699ff; float:left; border-radius:7px; padding: 5px;">
+				<form id="s_school">
+					<select type="submit">
+						
+						<option value="0">Select My School or Organization...</option>
+							
+						<option value="241" > ------</option>
+							
+						<option value="285" >Academy of St. Joseph, The</option>
+							
+						<option value="281" >Ascension School</option>
+							
+						<option value="121" >Ballet Tech/NYC Public School for Dance</option>
+							
+						<option value="388" >Basic Trust</option>
+							
+						<option value="292" >Bellevue South Nursery School</option>
+							
+						<option value="263" >Blue School</option>
+							
+						<option value="315" >Bronx HS of Science</option>
+							
+						<option value="160" >Brooklyn New School</option>
+							
+						<option value="247" >Brooklyn School of Inquiry</option>
+							
+						<option value="139" >Cathedral School of Saint John the Divine </option>
+							
+						<option value="123" >Central Park East I</option>
+							
+						<option value="124" >Central Park East School II</option>
+							
+						<option value="296" >Children's Storefront School</option>
+							
+						<option value="288" >City and Country School</option>
+							
+						<option value="43" >Clinton School for Writers & Artists</option>
+							
+						<option value="396" >Cobble Hill Playschool</option>
+							
+						<option value="227" >Columbia Secondary School</option>
+							
+						<option value="26" >Dalton School</option>
+							
+						<option value="400" >Dos Puentes Elementary School</option>
+							
+						<option value="125" >Earth School</option>
+							
+						<option value="94" >Ella Baker School</option>
+							
+						<option value="120" >Friends Seminary</option>
+							
+						<option value="236" >Gateway School</option>
+
+						<option value="406" >Girls Prep LES Elementary School</option>
+							
+						<option value="385" >Grace Church School </option>
+							
+						<option value="386" >Growing Up Green Charter School</option>
+							
+						<option value="338" >Hayground School</option>
+							
+						<option value="264" >Hudson School</option>
+							
+						<option value="65" >Hunter College Elementary School</option>
+							
+						<option value="128" >International School Brooklyn</option>
+							
+						<option value="99" >IS 289</option>
+
+						<option value="67" >Lab Middle School</option>
+							
+						<option value="389" >Language and Laughter Studio</option>
+							
+						<option value="339" >LearningSpring School</option>
+							
+						<option value="77" >Lower Lab School</option>
+							
+						<option value="110" >Manhattan Country School</option>
+							
+						<option value="48" >Maple Street School</option>
+							
+						<option value="276" >Mott Hall II / MS 862</option>
+							
+						<option value="25" >MS 114 East Side Middle School</option>
+							
+						<option value="22" >MS 447 Math and Science...</option>
+							
+						<option value="112" >MS 51</option>
+							
+						<option value="129" >MS 54 Booker T. Washington Middle</option>
+							
+						<option value="226" >Muscota New School</option>
+							
+						<option value="60" >NEST+m</option>
+							
+						<option value="291" >New York French American Charter School</option>
+							
+						<option value="398" >Peck Slip School</option>
+							
+						<option value="154" >Poly Prep</option>
+							
+						<option value="107" >PS 10</option>
+							
+						<option value="130" >PS 101 School in the Gardens</option>
+							
+						<option value="24" >PS 102 Bay View School</option>
+							
+						<option value="92" >PS 11 William T Harris School</option>
+							
+						<option value="118" >PS 116</option>
+							
+						<option value="114" >PS 126/Manhattan Academy of Technology</option>
+							
+						<option value="162" >PS 132 The Conselyea School</option>
+							
+						<option value="337" >PS 133 William A. Butler Elementary School</option>
+							
+						<option value="62" >PS 150 Tribeca Learning Center</option>
+							
+						<option value="93" >PS 158</option>
+							
+						<option value="55" >PS 163 The Alfred E Smith School</option>
+							
+						<option value="151" >PS 166</option>
+							
+						<option value="132" >PS 183 Robert Louis Stevenson School</option>
+							
+						<option value="143" >PS 184 Shuang Wen School</option>
+							
+						<option value="164" >PS 199 Jesse Isador Straus</option>
+							
+						<option value="397" >PS 20 The Clinton Hill School</option>
+							
+						<option value="23" >PS 212 Midtown West</option>
+							
+						<option value="299" >PS 267, East Side Elementary School</option>
+							
+						<option value="58" >PS 29 John Harrigan School</option>
+							
+						<option value="134" >PS 290 Manhattan New School</option>
+							
+						<option value="42" >PS 3 The John Melser Charrette School</option>
+							
+						<option value="119" >PS 315 East Village Community School</option>
+							
+						<option value="145" >PS 321 William Penn School</option>
+							
+						<option value="387" >PS 33 Chelsea Prep</option>
+							
+						<option value="135" >PS 333 Manhattan School for Children</option>
+							
+						<option value="35" >PS 334 The Anderson School</option>
+							
+						<option value="136" >PS 361 The Children's Workshop School</option>
+							
+						<option value="64" >PS 363 The Neighborhood School</option>
+							
+						<option value="138" >PS 366 Washington Heights Academy</option>
+							
+						<option value="395" >PS 368 Hamilton Heights School</option>
+							
+						<option value="258" >PS 372 The Childrens School</option>
+							
+						<option value="271" >PS 38 The Pacific School</option>
+							
+						<option value="289" >PS 397 Spruce Street School</option>
+							
+						<option value="137" >PS 40 Augustus St. Gaudens School</option>
+							
+						<option value="39" >PS 41 Greenwich Village School</option>
+							
+						<option value="286" >PS 452</option>
+							
+						<option value="79" >PS 58 Carroll School</option>
+							
+						<option value="213" >PS 59 Beekman Hill International School</option>
+							
+						<option value="86" >PS 6</option>
+							
+						<option value="312" >PS 748 Brooklyn School for Global Scholars</option>
+							
+						<option value="81" >PS 75</option>
+							
+						<option value="329" >PS 8 Robert Fulton School</option>
+							
+						<option value="301" >PS 84 The Lillian Webber School</option>
+							
+						<option value="21" >PS 89</option>
+							
+						<option value="332" >PS 9 Sarah Anderson </option>
+
+						<option value="407" >PS 94Q David Porter School</option>
+							
+						<option value="336" >PS IS 187</option>
+							
+						<option value="384" >PS/IS 217 Roosevelt Island</option>
+							
+						<option value="262" >PS/IS 276 Battery Park City School</option>
+							
+						<option value="275" >PS/IS 499 Queens College School for Math, Science, and Technology</option>
+							
+						<option value="394" >Pusteblume International Preschool</option>
+							
+						<option value="265" >Quest to Learn</option>
+							
+						<option value="340" >Sacred Heart of Jesus</option>
+							
+						<option value="89" >Salk School of Science M.S. 255</option>
+							
+						<option value="333" >School of the Blessed Sacrament</option>
+							
+						<option value="59" >Special Music School of America</option>
+							
+						<option value="313" >St. Gregory The Great School</option>
+							
+						<option value="326" >Stuyvesant High School</option>
+						
+						<option value="53" >Tompkins Square Middle School</option>
+
+						<option value="405" >Teachers Community College School</option>
+							
+						<option value="320" >Transfiguration School</option>
+							
+						<option value="111" >United Nations International School</option>
+							
+				        <option value="redirect">Don't see your school...?</option>
+						 
+					</select>
+					<input type="hidden" name="submit" value="Select">
+				</form>
+			</div>
+			    <p id="welcome" style="color:#FF0040; font-size:14px; font-weight:bold; margin-left:25px;">
+			   </p>
+			</div>
+		
+
+		<div class="spacer"></div>
+		
+			<!-- // venue filter //-->
+			<select type="submit" id="venueId" onchange="loadEvents()">
+				<option value="">All Venues</option>
+				<option value="288334">City Cinemas 123</option>
+				<option value="10802">Director's Guild of America Theater</option>
+				<option value="18596">IFC Center</option>
+				<option value="283534">The Pine Street School</option>
+				<option value="73354">Scholastic Theater</option>
+				<option value="275004">SVA Theatre</option>
+				<option value="12727">Tribeca Cinemas</option>
+				<option value="14863">Village East Cinemas</option>
+			</select>
+			
+			<div class="spacer"></div>
+
+			<div id="tag">
+				<span class="mad">filter by age:</span>
+				<button value="36">
+					3-6
+				</button>
+				<button value="510">
+					5-10
+				</button>
+				<button value="814">
+					8-14
+				</button>
+				<button value="12+">
+					12+
+				</button>
+
+				<div class="spacer"></div>
+
+				<span class="mad">filter by program details:</span>
+				<button value="shorts">
+					short films
+				</button>
+				<button value="feat">
+					feature films
+				</button>
+				<button value="anim">
+					animated
+				</button>
+				<button value="la">
+					live action
+				</button>
+				<button value="eng">
+					in English
+				</button>
+				<button value="sub">
+					subtitled
+				</button>
+
+			</div>
+
+			<div class="spacer"></div>
+
+			<button class="clear">clear filters</button>
+
+		</div>
+
+
+	<div class="col-1">
+		
+		<div id="listing">
+	
+	<!-- // TICKET WEB API //-->
+			<div id = "tw-eventlist"> 
+				<p>loading event data...</p>
+			</div> 
+
+			<div id= "tw-title"></div>
+		
+		</div>
+		<!--// END OF TICKETWEB API -->
+
+	</div>
+	<div class="spacer"></div>
+
+	<!-- // footer // -->
+		
+		<div class="col-1 footer">
+			<div class="mad">sponsors</div>
+			<img src="Images/parents.png" width="100px">
+			<img src="Images/wfm.png" width="65px">
+			<img src="Images/scholastic.png" width="150px">
+			<img src="Images/nyt.png" width="150px">
+		</div>
+
+	</div>
+
+
+</body>
+</html>
